@@ -1,0 +1,9 @@
+name: love_letter
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - pygame==2.6.1
